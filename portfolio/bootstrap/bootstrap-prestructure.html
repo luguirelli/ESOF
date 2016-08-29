@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="widht=device-widht, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-6 title-logo"><img src="images/logo.png" alt="Logo"></div>
+<div class="col-md-6 text-right text-uppercase">
+<h1 class="title-super text-thin">Jane Doette</h1>
+<h3>Ninja do front-end</h3>
+</div>
+</div>
+<div class="row">
+    <hr>
+</div>
+<div class="row">
+<div class="col-md-12">
+<img class="img-responsive" src="images/lg-image.png" alt="Image central">
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h2 class="text-muted">Trabalho em destaque</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<img src="images/appify.png" data-toggle="modal" data-target="#project1" alt="Appify">
+<h3>Appify</h3>
+<p><a href="http://github.com">Link para o projeto</a></p>
+</div>
+<div class="col-md-6">
+<img src="images/sunflower.png" alt="Sunflower">
+<h3>Appify</h3>
+<p><a href="http://github.com">Link para o projeto</a></p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<img src="images/bokeh.png" alt="Bokeh"">
+<h3>Appify</h3>
+<p><a href="http://github.com">Link para o projeto</a></p>
+</div>
+</div>
+</div>
+<button class="bnt bnt-primary bnt-lg" data-toggle="modal" data-target="#project1">
+    Launch demo modal
+</button>
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/appify.png">
+                    Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
